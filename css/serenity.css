@@ -132,6 +132,7 @@ a:hover, a:focus {
 }
 .navbar-brand img{
     margin-right: 5px;
+
 }
 .nav-brand span{
   font-size: 20px;
@@ -143,8 +144,9 @@ a:hover, a:focus {
   outline: none;
 }
 .custom_nav-container .navbar-toggler .navbar-toggler-icon{
-  background-image: url(../images/menu.png);
-  background-size: 75px;
+  background: url(../images/menu.png) !important;
+  background-size: 75px !important;
+  width: 900px;
 
 }
 .quote_btn-container a{
